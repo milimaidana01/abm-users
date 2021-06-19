@@ -1,0 +1,305 @@
+.text-center {
+  color: white;
+  text-shadow: 5px 5px 3px #091c2c;
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px #091c2c;
+  margin-bottom: 5%;
+}
+
+body {
+  background-color: #173f5f;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://image.freepik.com/vector-gratis/fondo-semitono-azul-abstracto_1035-18857.jpg');
+  background-size: cover;
+}
+
+.form-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 175px;
+}
+
+#survey-form {
+  padding: 15px 45px 30px 45px;
+}
+
+#submit.submit-button:hover {
+  color: #c7d4df;
+  background-color: #859aff;
+}
+
+#logIn.logIn-button:hover {
+  color: #c7d4df;
+  background-color: #859aff;
+}
+
+#logIn.logIn-button {
+  width: 140px;
+  text-align: center;
+  height: 35px;
+  margin: auto;
+  border: transparent;
+  background-color: #173f5f;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 8px;
+  font-weight: bold;
+  transition: all 0.5s 0s ease;
+}
+
+#submit.submit-button {
+  width: 140px;
+  text-align: center;
+  height: 35px;
+  margin: auto;
+  border: transparent;
+  background-color: #173f5f;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: all 0.5s 0s ease;
+}
+
+#logOut.logOut-button {
+  width: 140px;
+  text-align: center;
+  height: 35px;
+  margin: auto;
+  border: transparent;
+  background-color: white;
+  color: #173f5f;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 32px;
+  font-weight: bold;
+}
+
+#logOut.logOut-button:hover {
+  color: #c7d4df;
+}
+
+.forgotPassword {
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.forgotPassword:hover {
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #173f5f;
+  text-decoration: underline #173f5f;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 350px;
+  height: 41px;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+#button {
+  margin: auto;
+  font-weight: bold;
+}
+
+#button-logIn {
+  margin: auto;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#select {
+  width: 364px;
+  height: 47px;
+}
+
+.user-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+  grid-gap: 50px 75px;
+  margin: 40px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.user-grid-boy {
+  background: linear-gradient(35deg, #171b5f, #37175f);
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  height: 375px;
+  width: 250px;
+  box-shadow: 0px 0px 10px #091c2c;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-grid-girl:hover {
+  filter: brightness(75%);
+  cursor: pointer;
+  width: 270px;
+  height: 400px;
+  transition: all 0.5s 0s ease;
+}
+
+.user-grid-boy:hover {
+  filter: brightness(75%);
+  cursor: pointer;
+  width: 270px;
+  height: 400px;
+  transition: all 0.5s 0s ease;
+}
+
+.user-grid-girl {
+  background: linear-gradient(35deg, #37175f, #5b175f);
+  margin: auto;
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  height: 375px;
+  width: 250px;
+  box-shadow: 0px 0px 10px #091c2c;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 77px;
+  border: 2px solid white;
+  margin-top: 5px;
+}
+
+.name {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.name:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.username:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.age:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.gender:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.username {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.gender {
+  margin-top: 10px;
+}
+
+.age {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 195px;
+  font-size: 20px;
+}
+
+.signUp {
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signUp:hover {
+  width: 300px;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #173f5f;
+  text-decoration: underline #173f5f;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 275px;
+  }
+  #select {
+    width: 190px;
+  }
+  .form-control {
+    width: 175px;
+  }
+  .forgotPassword {
+    width: auto;
+    font-size: 16px;
+    height: auto;
+  }
+  .forgotPassword:hover {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .signUp:hover {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .signUp {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+}

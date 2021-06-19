@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet" />
+
+  <h1 id="title" class="text-center">Registrate</h1>
+  <p class="text-center" style="margin-top: 1%">Es rápido y sencillo.</p>
+
+  <div class="container">
+    <form id="survey-form">
+      <div class="form-group">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Nombre de usuario" required />
+      </div>
+
+      <div class="form-group">
+        <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña" required />
+      </div>
+      
+      <div class="form-group">
+        <select class="form-control" style="margin-bottom: 15px;" id="gender" required>
+          <option disabled selected value>Seleccioná tu género</option>
+          <option value="Female">Mujer</option>
+          <option value="Male">Hombre</option>
+      </div>
+
+      <div class="form-group">
+        <input type="number" name="age" id="number" min="18" max="99" class="form-control" placeholder="Edad" />
+      </div>
+
+      <div class="form-group">
+        <select class="form-control" id="hair_color" required>
+          <option disabled selected value>Seleccioná tu color de pelo</option>
+          <option value="brown">Marrón</option>
+          <option value="yellow">Amarillo</option>
+          <option value="black">Negro</option>
+          <option value="grey">Gris</option>
+          <option value="other">Otro</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="button">
+        <button type="button" id="submit" class="submit-button" onclick="clickOnSignUp()">Enviar</button>
+      </div>
+      <div class="forgotPassword" onclick="irAlLogin()">¿Ya tenés cuenta? ¡Hacé click acá!</div>
+    </form>
+  </div>
+</html>
